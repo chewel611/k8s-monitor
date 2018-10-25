@@ -39,7 +39,7 @@ metadata:
   name: alertmanager-main
   namespace: monitoring
 spec:
-  type: NodePort
+  type: ClusterIP
   ports:
   - name: web
     port: 9093
