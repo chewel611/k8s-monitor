@@ -7143,7 +7143,7 @@ metadata:
   name: grafana
   namespace: monitoring
 spec:
-  type: NodePort
+  type: ClusterIP
   ports:
   - name: http
     port: 3000
